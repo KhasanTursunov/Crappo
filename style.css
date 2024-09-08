@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css2?family=Rubik:wght@100;200;300;400;500;600;800;900&display=swap);
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 60px;
+    max-width: 1440px;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    background-color: #0D0D2B;
+}
+
+
+
+.d_n{
+    display: none;
+}
+button{
+    color: #fff;
+    background-color: #3671E9;
+    border: transparent;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover{
+    color: #3671E9;
+    background-color: #fff;
+    border: 2px solid #3671E9;
+}
+
+/* end of global */
+@media(min-width:1028px){
+    .d_b{
+        display: none;
+    }
+}
+
+@media(max-width:1028px){
+    .links{
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 50%;
+        background-color: rgb(204, 212, 218);
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 1s linear;
+    }
+    #check:checked ~ .links{
+        left: 0;
+    }
+    .links li a, .links a{
+        color: #0D0D2B;
+    }
+}
+
+/* end of header */
+
+@media(max-width:1000px){
+   .sh_left_and_right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   } 
+}
+
+@media(max-width:600px){
+    .sh_left h1{
+        font-size: 44px;
+    }
+}
+
+
+/* end of showcase */
+
+@media(max-width:1026px){
+    .c_swippers{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    .sh_left_and_right{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
+
+@media(max-width:500px){
+    .sh_left_and_right h1{
+        font-size: 34px;
+line-height: 45.84px;
+
+    }
+    .swiper_1_2 h3{
+        font-size: 30px;
+        line-height: 45.84px;
+
+    }
+}
+
+/* end of crypto */
+
+@media(max-width:650px){
+    .dis_none{
+        display: none;
+    }
+}
+
+@media(max-width:550px){
+    .t_inside button{
+        display: none;
+    }
+}
+
+@media(max-width:450px){
+    .t_inside2 p{
+        display: none;
+    }
+}
+
+/* end of translate */
+
+@media(max-width:1040px){
+    .trade_cards{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px){
+    .trade_title h2{
+font-size: 30px;
+font-weight: 600;
+line-height: 50px;
+text-align: center;
+
+    }
+}
+
+/* end of trade */
+
+@media(max-width:1000px){
+    .market_left_and_right{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .market_left{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        align-items: center;
+        text-align: center;
+    }
+    .order_1{
+        order: 1;
+    }
+    .order_2{
+        order: 2;
+    }
+}
+
+@media(max-width:600px){
+        .market_left{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+    .market_title h2{
+font-size: 30px;
+font-weight: 600;
+line-height: 50px;
+text-align: center;
+
+    }
+}
+
+/* end of market */
+
+@media(max-width:1026px){
+    .mini_divs input{
+        display: none;
+    }
+}
+
+@media(max-width: 700px){
+    .mini_divs button{
+        display: none;
+    }
+}
+
+@media(max-width: 450px){
+    .mini_divs h3{
+        display: none;
+    }
+}
+
+/* end of mining */
+
+@media(max-width:1288px){
+    .footer_divs{
+        flex-wrap: wrap;
+    }
+}
+
+
+@media(max-width:600px){
+    .second_div{
+        flex-direction: column;
+        gap: 10px;
+    }
+}
